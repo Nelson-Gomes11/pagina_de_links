@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100dvh;
+    width: 100vw;
+    font-family: "Playwrite ES Deco", serif;
+}
+
+.background {
+    background: linear-gradient(to right, rgb(121, 3, 3), rgb(2, 2, 99));
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    width: 100vw; 
+}
+
+.card {
+    border-radius: 19px;
+    border: 3px solid #000000;
+    background: rgb(255 255 255 / 0.81);
+    padding: 52px 10px;
+    width: 516px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 66px;
+}
